@@ -1,4 +1,4 @@
-package de.mbn.testexample;
+package test.de.mbn.testexample;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,7 +14,7 @@ public class HelloWorldTest {
 
     @Test
     void testHelloWorld(){
-        assertTrue(true);
+        Assertions.assertTrue(true);
     }
 
 }
