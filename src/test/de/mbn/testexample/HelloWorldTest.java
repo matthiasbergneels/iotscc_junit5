@@ -14,7 +14,7 @@ public class HelloWorldTest {
 
     @Test
     void testHelloWorld(){
-        Assertions.assertTrue(true);
+        assertTrue(true);
     }
 
 }

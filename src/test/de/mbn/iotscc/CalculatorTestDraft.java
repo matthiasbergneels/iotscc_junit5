@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 class CalculatorTestDraft {
 
     Calculator testCalculator;
@@ -18,6 +20,6 @@ class CalculatorTestDraft {
 
     @Test
     void add() {
-        Assertions.assertEquals(10.0, testCalculator.add(8.0, 2.0));
+        assertEquals(10.0, testCalculator.add(8.0, 2.0));
     }
 }
