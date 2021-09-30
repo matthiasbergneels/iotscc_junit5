@@ -12,16 +12,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTestDraft {
 
-    Calculator testCalculator;
+  Calculator testCalculator;
 
-    @BeforeEach
-    void setup(){
-        testCalculator = new Calculator();
-    }
+  @BeforeEach
+  void setup() {
+    testCalculator = new Calculator();
+  }
 
-    @Test
-    @Tag("remote")
-    void add() {
-        assertEquals(10.0, testCalculator.add(8.0, 2.0));
-    }
+  @Test
+  @Tag("remote")
+  void add() {
+    assertEquals(10.0, testCalculator.add(8.0, 2.0));
+  }
 }

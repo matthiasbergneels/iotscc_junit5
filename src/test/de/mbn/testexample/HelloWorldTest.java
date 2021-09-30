@@ -8,15 +8,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class HelloWorldTest {
 
-    @BeforeEach
-    void setup() {
+  @BeforeEach
+  void setup() {
 
-    }
+  }
 
-    @Test
-    @Tag("remote")
-    void testHelloWorld(){
-        assertTrue(true);
-    }
+  @Test
+  @Tag("remote")
+  void testHelloWorld() {
+    assertTrue(true);
+  }
 
 }
